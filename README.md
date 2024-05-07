@@ -15,6 +15,7 @@ First, we have a **GitHub repository that contains the source code of the applic
 ![Argo CD Pipeline](https://github.com/mathesh-me/python-flask-app/assets/144098846/ea1757e8-0c61-47e9-9018-8530cfb3e879)
 
 
+
 ## Prerequisites 📋
 
 - `A GitHub account`
