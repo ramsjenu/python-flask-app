@@ -14,7 +14,7 @@ jobs:
     steps:
     - uses: actions/checkout@v4
     - name: Build the Docker image
-      run: docker build --tag memathesh/pythonflaskapp:${{ github.sha }} .
+      run: docker build --tag ramsjenu/pythonflaskapp:${{ github.sha }} .
 
     - name: Login to Docker Hub
       uses: docker/login-action@v3
@@ -27,7 +27,7 @@ jobs:
         uses: docker/build-push-action@v5
         with:
           push: true
-          tags: memathesh/pythonflaskapp:${{ github.sha }}
+          tags: ramsjenu/pythonflaskapp:${{ github.sha }}
 
   Update-Config-Repo:
     runs-on: ubuntu-latest
